@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent none
     environment{
         DOCKERHUB_CREDENTIALS = credentials('spgdlp-dockerhub')
     }
@@ -12,7 +12,7 @@ pipeline {
                 }
             }
             steps{
-                sh 'python3 --version'
+                sh 'python --version'
             }
         }
     
