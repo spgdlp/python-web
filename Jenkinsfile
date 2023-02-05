@@ -41,7 +41,7 @@ pipeline {
             /*stage ('Deploy to K8S'){
                 steps {
                       }
-            */}
+            */
     }
     post{
         always {
