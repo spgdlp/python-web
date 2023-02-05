@@ -12,7 +12,7 @@ pipeline {
                 }
             }
             steps{
-                bat 'python3 --version'
+                sh 'python3 --version'
             }
         }
     
