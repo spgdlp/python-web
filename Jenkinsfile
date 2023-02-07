@@ -1,9 +1,5 @@
 pipeline {
     agent any
-    environment{
-        DOCKERHUB_CREDENTIALS = credentials('spgdlp-dockerhub')
-    }
-
     stages{
         stage('Pruebas Unitarias y Sonar - Simulacion'){
             steps{
