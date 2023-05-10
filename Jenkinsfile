@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages{
-        stage('Pruebas Unitarias y Sonar - Simulacion'){
+        stage('Pruebas Unitarias y Sonar - Simulacion '){
             steps{
                 sh 'python --version'
             }
