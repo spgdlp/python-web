@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Pruebas Unitarias y Sonar - Simulacion '){
             steps{
-                sh 'python --version'
+                bat 'python --version'
             }
         }
     
